@@ -1,0 +1,232 @@
+body{
+    margin: 2rem 10rem;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav h1 {
+    margin: 0 auto;
+    color: rgba(5, 174, 36, 0.844);
+    
+}
+span{
+    color: brown;
+}
+.nav a {
+    text-decoration: none;
+    padding: 0 20px;
+    color: grey  ;
+    font-size: 14px;
+    font-weight: 700;
+    transition: color 0.5s 0.3s;
+   
+}
+.nav a:hover{
+    text-decoration: underline;
+    color: rgba(5, 174, 36, 0.844) ;
+    
+}
+#nav-btn{
+    border: solid 1px rgba(5, 174, 36, 0.844);
+    border-radius: 5px;
+    background-color: #fff ;
+    color: rgba(5, 174, 36, 0.844);
+    text-transform: uppercase;
+    width: 100px;
+    height: 30px;
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+    
+}
+#nav-btn:hover{
+    background-color: rgba(5, 174, 36, 0.844) ;
+    color: #fff;
+    transition: 0.5s ease-in-out;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.hero p {
+    font-size: 14px;
+    font-weight: 700;
+    text-justify: auto;
+    color: grey;
+    margin-top: 40px;
+}
+#hero-btn{
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(5, 174, 36, 0.844);
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    margin-top: 60px;
+}
+#hero-btn:hover{
+    opacity: 0.8;
+}
+#hero-btn2{
+    border: 1px solid rgba(5, 174, 36, 0.844);
+    border-radius: 5px;
+    color: rgba(5, 174, 36, 0.844);
+    background-color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+}
+#hero-btn2:hover{
+    opacity: 0.8;
+}
+
+/* About section */
+
+.miss p{
+    font-size: 14px;
+    color: grey;
+}
+section h2{
+    color: brown;
+}
+.about-sect p{
+    font-size: 14px;
+    padding: 10px 40px;
+    color: grey;
+}
+
+.about-sect{
+    text-align: center;
+    background-color: rgb(244, 193, 193);
+    height: 300px;
+    align-content: center;
+    border-radius: 5px;
+    margin-top: 2rem;
+    
+}
+.mission{
+    display: flex;
+    margin-top: 2rem;
+}
+.miss{
+    padding: 80px;
+} 
+
+/* Contact us  */
+.contact-us{
+    display: flex;
+    justify-content: space-between;
+}
+.talk{
+    margin-top: 40px;
+
+}
+.talk p{
+    color: grey;
+    font-size: 14px;
+}
+.talk h2{
+    color: brown;
+}
+form{
+    margin-top: 40px;
+}
+label{
+    font-size: 14px;
+    color: grey;
+    margin-top: 10px;
+}
+
+input{
+    border: none;
+    background-color: rgb(248, 234, 234);
+    border-radius: 5px;
+    width: 300px;
+    height: 25px;
+    margin-top: 10px;
+}
+#message{
+    height: 80px;
+}
+
+::placeholder{
+    font-size: 12px;
+    color: grey;
+    font-style: italic;
+    position: relative;
+    top: -1.5rem;
+    left: 10px;
+}
+#send-msg{
+    margin-top: 40px;
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    height: 25px;
+    background-color: brown;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+#send-msg:hover{
+    opacity: 0.9;
+    transition: 0.3s ease-in-out    ;
+}
+.img-side{
+    margin-top: 40px;
+}
+.address{
+    margin-top: 30px;
+}
+.address p{
+    margin-top: 20px;
+    font-size: 12px;
+    color: grey;
+    text-decoration: none;
+}
+.address p a{
+    color: grey;
+    text-decoration: none;
+    font-size: 12px;
+}
+.address i{
+    margin-right: 10px;
+}
+.address div{
+    display: flex;
+}
+#unk{
+    margin-top: 20px;
+    color: gray;
+    font-size: 12px;
+}
+.social-links {
+    margin-top: 40px;
+    margin-left: -10px;
+    
+    
+}
+.social-links a{
+    text-decoration: none;
+    color: grey;
+    margin: 10px;
+}
+.social-links a:hover{
+    color: brown;
+    transition: 0.3s ease-in-out;
+}
